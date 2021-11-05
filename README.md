@@ -21,5 +21,6 @@ mvn test
 
 input 2
 
-![image](https://user-images.githubusercontent.com/51907203/140481761-9d6c289c-7618-4132-b912-593f07e8c669.png)
+![image](https://user-images.githubusercontent.com/51907203/140484844-5eeed4b0-d98d-4c6c-b20c-f17666ba8415.png)
+
 
