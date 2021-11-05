@@ -1,3 +1,5 @@
+
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -7,7 +9,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StationFinder {
-
     private static LinkStation linkStation1 = new LinkStation(0, 0, 10);
     private static LinkStation linkStation2 = new LinkStation(20, 20, 5);
     private static LinkStation linkStation3 = new LinkStation(10, 0, 12);
@@ -88,15 +89,15 @@ public class StationFinder {
         List<LinkStation> allUseFullStations = (ArrayList<LinkStation>) sortedMap.get(highestPower);
         if (highestPower > 0) {
             if (allUseFullStations.size() == 1) {
-                System.out.println("Best station is : " + allUseFullStations.get(0).toString() + " with power" + highestPower.toString());
+                System.out.println("Best link station for point " + coordinate.getX() + "," + coordinate.getY() + " is : " + allUseFullStations.get(0).toString() + " with power " + highestPower.toString() + "\n");
             } else if (allUseFullStations.size() > 1) {
                 for (LinkStation bestStation : allUseFullStations) {
-                    System.out.println("Best station is : " + bestStation.toString() + " with power " + highestPower.toString());
+                    System.out.println("Best link station for point " + coordinate.getX() + "," + coordinate.getY() + " is : " + bestStation.toString() + " with power " + highestPower.toString() + "\n");
                 }
             }
         } else {
             System.out.println("No link station within reach for point x,y " + coordinate.toString());
         }
-
+    sortedMap.clear();
     }
 }
