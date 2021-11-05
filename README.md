@@ -19,11 +19,11 @@ mvn test
 
 ![image](https://user-images.githubusercontent.com/51907203/140481672-564754f6-3710-4749-affd-16d27a3002e2.png)
 
-### input 2 ( Checks all sample data coordinate points)
-
-![image](https://user-images.githubusercontent.com/51907203/140484844-5eeed4b0-d98d-4c6c-b20c-f17666ba8415.png)
 
 ### Giving your own sample input (option 1)
 
 ![image](https://user-images.githubusercontent.com/51907203/140485128-12d01f38-6027-4bcb-9e66-11d2c60b1478.png)
 
+### input 2 ( Checks all sample data coordinate points)
+
+![image](https://user-images.githubusercontent.com/51907203/140484844-5eeed4b0-d98d-4c6c-b20c-f17666ba8415.png)
