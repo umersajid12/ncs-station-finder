@@ -13,6 +13,7 @@ mvn compile exec:java -Dexec.mainClass="StationFinder"
 ```
 mvn test
 ```
+![image](https://user-images.githubusercontent.com/51907203/140485527-593d4eb8-1d98-4092-a93e-23bc98aa4455.png)
 
 ### How to use : 
 
@@ -27,3 +28,7 @@ mvn test
 ### input 2 ( Checks all sample data coordinate points)
 
 ![image](https://user-images.githubusercontent.com/51907203/140484844-5eeed4b0-d98d-4c6c-b20c-f17666ba8415.png)
+
+
+### Docker Image build
+WIP
