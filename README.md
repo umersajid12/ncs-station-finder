@@ -8,7 +8,7 @@
 mvn compile exec:java -Dexec.mainClass="StationFinder"
 ```
 
-### To run all 5 Unit Tests.
+### To run all Unit Tests.
 1. Execute the following.
 ```
 mvn test
