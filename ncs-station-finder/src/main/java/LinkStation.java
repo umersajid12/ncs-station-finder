@@ -23,6 +23,6 @@ public class LinkStation extends Coordinate {
 
     @Override
     public String toString() {
-        return "x,y is : " + this.getX() + "," + this.getY() + "\n" + " Reach is :" + this.getReach();
+        return "x,y : " + this.getX() + "," + this.getY() + "\n";
     }
 }
