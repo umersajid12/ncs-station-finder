@@ -5,7 +5,7 @@
 3. Make sure Maven in installed. (alternatively use Intellij or Eclipse and run the Main Method)
 4. cd to the directory and execute the following to run the main function.
 ```
-mvn compile exec:java -Dexec.mainClass="StationFinder"
+mvn compile exec:java"
 ```
 
 ### To run all Unit Tests.
