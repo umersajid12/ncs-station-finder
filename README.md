@@ -13,3 +13,12 @@ mvn compile exec:java -Dexec.mainClass="StationFinder"
 ```
 mvn test
 ```
+
+### How to use : 
+
+
+![image](https://user-images.githubusercontent.com/51907203/140481672-564754f6-3710-4749-affd-16d27a3002e2.png)
+
+input 2
+![image](https://user-images.githubusercontent.com/51907203/140481761-9d6c289c-7618-4132-b912-593f07e8c669.png)
+
